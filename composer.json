@@ -1,0 +1,22 @@
+{
+  "name": "labify/auth-scaffold-bootstrap",
+  "description": "Bootstrap 5 auth scaffolding for Laravel 12.x (login, register, forgot/reset, verify, confirm) with user_profiles table and polished UI.",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": "^8.2",
+    "laravel/framework": "^12.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Labify\\AuthScaffold\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Labify\\AuthScaffold\\AuthScaffoldServiceProvider"
+      ]
+    }
+  }
+}
