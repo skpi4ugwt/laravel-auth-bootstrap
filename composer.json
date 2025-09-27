@@ -3,6 +3,7 @@
   "description": "Bootstrap 5 auth scaffolding for Laravel 12.x (login, register, forgot/reset, verify, confirm) with user_profiles table and polished UI.",
   "type": "library",
   "license": "MIT",
+  "version": "v1.0" ,
   "require": {
     "php": "^8.2",
     "laravel/framework": "^12.0"
